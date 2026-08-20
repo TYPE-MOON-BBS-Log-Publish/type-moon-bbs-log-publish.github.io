@@ -1,0 +1,7 @@
+plugins:
+ - jekyll-sitemap
+url:
+ "https://type-moon-bbs-publish.github.io"
+baseurl:
+ "/tmbbslog"
+

@@ -1,0 +1,305 @@
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>TYPE-MOON 掲示板</title>
+	<STYLE TYPE="text/css">
+<!--
+	.titlebar { background-color: royalblue; color: white; font-weight: bold; font-family: "Courier New", "Courier", monospace; width: 100%; }
+	.warnningmessage { background-color: silver; color: black; font-size: 8px; }
+	BODY { margin: 0px 0px 0px 0px; }
+	TH { font-family: "Courier New", "Courier", monospace; }
+	.courier { font-family: "Courier New", "Courier", monospace; font-weight: bold; }
+	.title { font-size: 20px; color: navy; }
+	.writer { font-size: 20px; }
+	HR.interarticle { height: 3px; color: royalblue; }
+	HR.mini { height: 1px; color: royalblue; width: 99%; }
+	.delete { background-color: red; color: white; font-weight: bold; }
+	td{ font-size: 10pt;letter-spacing:1pt; }
+	input,textarea{	border-top : 1px solid ; border-bottom : 1px solid ; border-left : 1px solid ; border-right : 1px solid ;font-size:10pt;background-color:#FFFFFF; }
+-->
+	</STYLE>
+</head>
+<body>
+<!--body-->
+<H2 CLASS="titlebar" ALIGN="right">TYPE-MOON 掲示板</H2>
+<TABLE ALIGN="center"><TR><TD><small>メインの掲示板です。<BR>どんなことでもOK!</small></TD></TR></TABLE><BR>
+<H4 CLASS="titlebar">Posting Field</H4>
+<form method="post" action="bbs.php">
+<input type="hidden" name="mode" value="regi">
+<input type="hidden" name="bbsname" value="typemoon">
+<div align=center>
+<table border="0" cellspacing="0" cellpadding="0">
+	<tr><td> name: </td>
+	<td width=1><input type="text" size="50" name="name"  value=""></td></tr>
+	<tr><td> email: </td>
+	<td><input type="text" size="50" name="email" value=""></td></tr>
+	<tr><td> url: </td>
+	<td><input type="text" size="50" name="url"   value="http://"></td></tr>
+	<tr><td> title: </td>
+	<td><input type="text" size="50" name="sub" value=""></td></tr>
+	<tr><td colspan=2>
+	<textarea name="com" cols="80" rows="10"></textarea>
+	</td></tr>
+	<tr><td colspan=2 align=right>
+		face: <select name=face><option value="" selected>なし
+<option value="ark.jpg">アルクェイド
+<option value="cel.jpg">シエル
+<option value="aki.jpg">秋葉
+<option value="his.jpg">翡翠
+<option value="koha.jpg">琥珀
+<option value="stk.jpg">さつき
+<option value="aoko.jpg">青子
+<option value="siki.jpg">志貴
+<option value="ari.jpg">有彦
+<option value="nero.jpg">ネロ
+<option value="roa.jpg">ロア
+<option value="hal.jpg">四季
+<option value="seo.jpg">晶
+<option value="ren.jpg">レン
+<option value="neko.jpg">猫アルク
+<option value="miyako.jpg">都古
+<option value="ichi.jpg">一子
+<option value="souka.jpg">蒼香
+<option value="seven.jpg">ななこ
+<option value="jinan.jpg">宗玄
+<option value="tokie.jpg">朱鷺恵
+<option value="hane.jpg">羽居
+<option value="kouma.jpg">紅摩
+<option value="aka.jpg">朱い月
+<option value="shijyo.jpg">つかさ
+<option value="tiel.jpg">知得留
+<option value="kuga.jpg">久我峰
+<option value="eto.jpg">エト
+<option value="nanaya.jpg">七夜
+<option value="fake.jpg">....
+</select>
+		pass: <input type="password" size="6" name="pwd" value="">
+	</td></tr>
+	<tr><td><br></td></tr>
+	<tr align="right"><td colspan=2>
+	<input type=button value=" submit ">
+	</td></tr>
+</table>
+</div>
+</form>
+<A NAME="0"><H4 CLASS="titlebar">Thread Menu Field</H4>
+<DIV ALIGN="center">
+<TABLE>
+	<TR><TH></TH><TH>タイトル</TH><TH>人</TH><TH>日付</TH><TH>レス数</TH></TR>
+	<TR><TD ALIGN="right">1047</TD><TD><A HREF="#1">一瞬の輝石　四（貴方の名言聞かせてください）</A></TD><TD>蜻蛉と烏</TD><TD>2002/09/08(Sun) 00:59</TD><TD ALIGN="right">56</TD></TR>
+	<TR><TD ALIGN="right">1044</TD><TD><A HREF="#2">やっぱり武器ならこれでしょう？</A></TD><TD>小次郎</TD><TD>2002/09/07(Sat) 10:06</TD><TD ALIGN="right">81</TD></TR>
+	<TR><TD ALIGN="right">1023</TD><TD><A HREF="#3">初心者の館と質問の館５</A></TD><TD>読んでね！！</TD><TD>2002/08/31(Sat) 21:57</TD><TD ALIGN="right">96</TD></TR>
+	<TR><TD ALIGN="right">1056</TD><TD><A HREF="#4">掲示板が変わる！？</A></TD><TD>car群</TD><TD>2002/09/11(Wed) 21:58</TD><TD ALIGN="right">83</TD></TR>
+	<TR><TD ALIGN="right">1034</TD><TD><A HREF="#5">新・私このキャラ好きなんです！　四の巻</A></TD><TD>愚者</TD><TD>2002/09/04(Wed) 04:14</TD><TD ALIGN="right">101</TD></TR>
+	<TR><TD ALIGN="right">1062</TD><TD><A HREF="#6">初めましてです。</A></TD><TD>怜音</TD><TD>2002/09/14(Sat) 14:37</TD><TD ALIGN="right">1</TD></TR>
+	<TR><TD ALIGN="right">1058</TD><TD><A HREF="#7">ファンサイトBBSへの移行について</A></TD><TD>ｆuzzy</TD><TD>2002/09/12(Thu) 02:26</TD><TD ALIGN="right">51</TD></TR>
+</TABLE>
+</DIV></A>
+<H4 CLASS="titlebar">Article Field</H4>
+<A NAME="1"><TABLE WIDTH="100%"><TR><TD>&lt;No.1047&gt; <B CLASS="title">一瞬の輝石　四（貴方の名言聞かせてくださ.</B> writer : <B CLASS="writer">蜻蛉と烏</B> <small>2002/09/08(Sun) 00:59 id:nN10h80H3/w </small></TD><TD ALIGN="right"><B><A HREF="#2">↓</A></B>/<B><A HREF="#0">↑</A></B>/<B><A HREF="#0">■</A></B></TD></TR></TABLE><HR CLASS="mini">
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><TT>新スレがなかなか立たないので、勝手ながら立ててみました。<P>＞これは、皆様が見たり、聞いたり、作ったりした、名文句、詩（俳句、短歌でも）や台詞<BR>＞などをお聞かせいただけませんか、というものです。<BR>＞なお、歌詞の場合は出所を明確にし、一部のみにしていただきたいと思います。<BR>＞初めての方も、どうぞお気軽に、ご参加ください。<BR>＞なお、オリジナルのものでなければ、作者も添えていただけると幸いです。<P>全員参加型、という事なので立てたのが八瀬さんでないのは勘弁して下さいな（笑）</TT></TD></TR></TABLE>
+<DIV ALIGN="right"><a href=t1047.html>レスを書き込む/表示されていないレス(49件)もすべて見る。</a></DIV>
+<hr class=mini>
+&lt;Res.50&gt; <B>蜻蛉と烏</B> <small>2002/09/13(Fri) 14:54 id:kCOB2C2Sxgs</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/aoko.jpg></TD><TD>今の掲示板が変わってしまう前に・・・！という方がいる、というのは凄い事ですね（感嘆）。<P>＞ ばりっちょ さん<BR>おお、MR.CHILDREN　「名もなき詩」。私もこの曲の歌詞には考えさせられたお年頃がありました。同曲の「自分らしさという檻～」の部分にはアイデンティ－云々を執拗に考えていた頃に、何か突きつけられた気がしたものです。<P>＞閲覧者Ｃさん <BR>私も最悪の自体を思考のルーチンに置くタイプなのですよ。それと同時に「最悪」に捕らわれ無いようにも気をつけています。しかし、元ネタはわからないです申し訳ない。<P>しかしながら、一目瞭然ですが、fuzzyさんをはじめとする有志の方々が新しい「場」を作り出そうと動いてらっしゃいます。ここのような場はこれで終わりではないわけで。「後悔したくない」、と新しく書きこんだ方も、常連の方々もまた「そこ」で再会できればこの上ないと思います。<P>「袖触れ合うも　多生の縁」とも言いますし、大切にしたいものです。<P>レス49は間違いがあったので削除しました。基本的内容はこれと同様です。失礼しました。</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+&lt;Res.51&gt; <B>八瀬</B> <small>2002/09/13(Fri) 14:57 id:/cfM4E114N6</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/souka.jpg></TD><TD>　こんにちは。はじめましての方が増えているようですね。これも“駆け込み需要”でしょうか（笑）？<BR>　ＢＢＳの移行その他については他のスレで話が進んでいるようなので、興味があり、かつ参加する意思があるのなら、必ずしもさようならとはならない可能性も……あ、でもオフィシャルとしてはさようならか……。<P>　＞ＨＡＺＵさま。はじめまして。<BR>　＞「終わりは始まりってなぁ！」　ええ、逆に『始まりは終わりの始まり』とも言いますしね。人が生きるのは自分に終わりがあることを知っているからこそ、でしょう。<P>　＞ばりっちょさま。はじめまして。<BR>　　既出ではないと思いますよ。著作権の問題をクリアしていればノープロブレムですが、歌詞はあまり出ていません。<BR>　　きっと、愛は誰にも手に入れることができないからこそ、どこかにあるものだと思います。<P>　＞閲覧者Ｃさま。はじめまして。<BR>　＞『常に最悪を想定せよ。事実はその１歩先を行く』<BR>　　元ネタ……富樫義博の『レベルＥ』に似たような台詞がありましたが、違うかな（笑）。大元は、多分有名な哲学者の台詞だと思います。<P>　長くなっているので端的な奴を。<BR>『人間って、きっと皆が思っているより、ずっと強いよ』</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+&lt;Res.52&gt; <B>BOB'n</B> <small>2002/09/13(Fri) 15:25 id:duVm3nqhwKE</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/stk.jpg></TD><TD>今日も、もう一つ！！<P>「最遊記」にて９巻の八戒が言ってた台詞を自分流にアレンジ！！<P>「何に対しても勝負事ってのは常に勝利を前提にしてその解決策を練る」<P>最初から負け腰では大事な時に何にも出来なくなって負けてしまうということですよ。時には「勝ち逃げ」も、重要なことです。<P>ばりっちょ様＞がＭｒ.Ｃｈｉｌｄｒｅｎで来ていたのでこっちも同じくミスチルから。<P>「終わりなき旅」からこのフレーズ。<P>「難しく考え出すと、結局全てが嫌になって、そっと逃げ出したくなるけど、高ければ高い壁のほうが、登ったとき気持ちいいもんだ。まだ限界だなんて認めちゃいないさ」<P>これは中々良い歌詞だなぁと偉ぶって聴いていました。元気が出ますよね！！こういうときに聴くと。この中（ミスチル）では２番目に好きな曲です。</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+&lt;Res.53&gt; <B>四條</B> <small>2002/09/13(Fri) 18:50 id:JxJN2C8f/sw</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/stk.jpg></TD><TD>もうすぐこの形式の掲示板は終わっちゃうしせっかくなので書き込みを<P>「目の前は真っ暗に見えるかも知れないけれど、それはただ黒いカーテンがあるだけで、それをどければ明るい世界が待ってるじゃないか。」<BR>細部は違うかもしれませんがむかしに中学校の頃見た劇のなかのセリフです。<BR>ありきたりなセリフですが、やっぱりこう思って生きていくのが幸せへの第一歩かなと思います。</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+&lt;Res.54&gt; <B>ヤドカリ戦車</B> <small>2002/09/18(Wed) 15:12 id:Zi8p0bc50rk</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/tiel.jpg></TD><TD>ご無沙汰でした。久しぶりの書き込みです。<BR>「読子、僕は思うんだ。どんな本にも終わりはある。だから僕たちは<BR>読み終えた後に充足感と、感動を得ることができる。その感動は<BR>形こそないが魂とともに永遠だ。それを忘れないでほしい。いつまでも<BR>君のことを見守り、君のことを思いつづけるよ。僕は幸せだ。君という<BR>女性に出会い、リドリーという友に出会えたのだから。」<BR>「Ｒ・Ｏ・Ｄ」よりドニーが読子にあてた最後の手紙から。<BR>物事の終わりというのを考えたとき思い出しました。</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+&lt;Res.55&gt; <B>ばりっちょ</B> <small>2002/09/18(Wed) 15:50 id:kFvSC987Oqo</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/ari.jpg></TD><TD>おおっ！あがってる！！<P>また歌もの。<P>　「あぁ　生きていて良かったと　永遠の淵　言えますように」<P>モンゴル８００「MESSAGE」のボーナストラックより。<BR>モンパチは好きな歌詞が多くて迷ったんですが、月姫のテーマに近いと思うものを。<P>では、また。</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+&lt;Res.56&gt; <B>KaMya</B> <small>2002/09/20(Fri) 15:19 id:I/E8y33YMMM</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/shijyo.jpg></TD><TD>「正義と愛こそが人類の歴史に最も多くの戦争をもたらした狂気である」<BR>出典はどこだったかなぁ。忘れました。９・１１に書くべきだったねぇ。<P>歌ネタで言うなら<BR>「物は壊れる。人は死ぬ。そういうものさ、ママン。」</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+<DIV ALIGN="right">
+<a href=t1047.html>レスを書き込む/表示されていないレス(49件)もすべて見る。</a>
+</DIV>
+</BLOCKQUOTE></A>
+<HR CLASS="interarticle">
+<A NAME="2"><TABLE WIDTH="100%"><TR><TD>&lt;No.1044&gt; <B CLASS="title">やっぱり武器ならこれでしょう？</B> writer : <B CLASS="writer"><a href="mailto:kojiroh27@hotmail.com">小次郎</a></B> <small>2002/09/07(Sat) 10:06 id:47fcXmYCJSw <a href="http://kojiroh.uu.st" target="_blank">HP</a></small></TD><TD ALIGN="right"><B><A HREF="#3">↓</A></B>/<B><A HREF="#1">↑</A></B>/<B><A HREF="#0">■</A></B></TD></TR></TABLE><HR CLASS="mini">
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/koha.jpg></TD><TD><TT>今回は以前話した事がある「斬るのか？撃つのか？」の発展形スレッドを立て見ました。<BR>ここはみなさんの「この武器が好き！」という話をする場所です。<BR>どんな武器でも構わない，たとえば実在の武器でも伝説の武器でもいい。複数を言うのも可！<P>しかし、モビールスーツみたいなロボットは武器というよりはキャラクタと言えるべきなので、<BR>｢新・私このキャラ好きなんです！」コーナーでしてください。　<P>僕の場合はオーストリア制のハンドガン、グロックシリーズが好きです。<BR>何にせよ、ＨＰの名前もあれからのですしね。（笑）<P>刀の事ならスターウォーズのライトセイバー。色は青で！<BR>でも、そんな物持ってるのは実の刃物よりも危険そうな感じですね・・・。</TT></TD></TR></TABLE>
+<DIV ALIGN="right"><a href=t1044.html>レスを書き込む/表示されていないレス(74件)もすべて見る。</a></DIV>
+<hr class=mini>
+&lt;Res.75&gt; <B>狛</B> <small>2002/09/15(Sun) 00:11 id:Ivt85BHcXE.</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/his.jpg></TD><TD>弓がイイです（主に射手の女の人ってのはダメですか？）<BR>冗談は置いといて、<BR>ボウガンなど剣と組み合わせて使った闘い方がカッコイイです（オルフィーナ参照）<BR>乱戦になった時などには便利そうです。<P>あとは、無限の住人に出てくる武器もかっこいいのが多いいです。<BR>お気に入りは槇絵さんの持っている春翁。</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+&lt;Res.76&gt; <B>アルフ</B> <small>2002/09/17(Tue) 23:23 id:8I/iUxSfCRc</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/cel.jpg></TD><TD>見た目重視なら｢Colt SAA｣<BR>西部劇の銃だけど、なんともいえない味がある。<BR>いまだに製造されてるのもわかるきがする。<P>ラバト・星川殿＞<BR>レブナント…いいっすね～。自分はライデン使いなんでバイパー系きらいですけど。肩レーザー最高！！フォースでは激弱ですが…</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+&lt;Res.77&gt; <B>スニーク</B> <small>2002/09/18(Wed) 23:46 id:K5w4BJGGOwo</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/nero.jpg></TD><TD>今晩は　１年ぶりくらいの書き込みです　まぁ　見には来るのですがカキコについていけなかったのですが　武器のことなら書き込みしなくてはって感じで書き込みます<BR>銃器関係では　ベレッタＭ９３Ｒ　（セミ　フル　３バースト）とそろった　小悪魔的存在の銃　あとは　Ｇ１８　これも（フル　セミ）なのでいいですね　なんかハンドガンで連射できるのが好きみたいです（＾＾；<BR>刀剣類は　ククリ　マスターナイフ　バヨネット（銃剣です）<BR>まぁ　こんな感じで←どんな感じだ（＾＾；　武器がすきですな　</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+&lt;Res.79&gt; <B>まつり</B> <small>2002/09/19(Thu) 00:18 id:ZNmfAdnbaf.</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/koha.jpg></TD><TD>こんばんわー。ここにきてこのスレ初参加です。<BR>好きな銃はアキュラシー・インターナショナルＬ８５Ａ１。<BR>ＦＡ－ＭＡＳやステアー同様ブルバップタイプの軍用ライフルです。<BR>マイナーだけどデザインに惚れました。<BR>実在しないものなら「ランチャー／スライプナー」。<BR>「切る、突く、撃つ、さらにバスターライフル、ついでにサーフボー<BR>ド」と４拍子そろったいい武器です。<BR>あ、ラバト・星川さんとアルフさんの冷たい視線がそこはかとなく…<BR>（バーチャロンのテムジンのライフルです、はい）<P>（Ｒｅｓ．７８はミスがあったので削除しました）</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+&lt;Res.80&gt; <B>MINIMI</B> <small>2002/09/19(Thu) 20:13 id:DnawVzuEVXs</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/roa.jpg></TD><TD>こんばんわ、初ですよろしくお願いします。<BR>好きな武器（ちゅうか火器）は、空の弾倉だけで約3ｋｇあるという、<BR>ラティ対戦車ライフルです口径20ｍｍの10発入り。<BR>全長207ｃｍ、重量57ｋｇ（弾倉含む）というオバカ銃です。<BR>さらに骨董品の為（1930～40年代）ほとんど残ってません。<BR>そのかわり乗用車ぐらいだったら紙のごとく貫通し2&#44;3キロ先まで飛んでいきます。<P>ジオブリーダースでもでてきましたね。</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+&lt;Res.81&gt; <B>はらわた大回転’９７</B> <small>2002/09/19(Thu) 20:29 id:Qfp3dK4JeD6</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/ichi.jpg></TD><TD><a href="http://www03.u-page.so-net.ne.jp/ba2/bloodfie/lahti.htm" target="_blank">http://www03.u-page.so-net.ne.jp/ba2/bloodfie/lahti.htm</a><BR>これですな。こういうの大好き（はあと）これでも個人用<BR>なんですね。これ、二挺並べて対空機銃として転用したそうな。<BR>骨董品とはいえ、まだ装甲車くらいは抜けるんじゃなかろうか。<BR>ところで、そのハンドルはやっぱりFN社の5.56mmのアレですか（ｗ</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+<DIV ALIGN="right">
+<a href=t1044.html>レスを書き込む/表示されていないレス(74件)もすべて見る。</a>
+</DIV>
+</BLOCKQUOTE></A>
+<HR CLASS="interarticle">
+<A NAME="3"><TABLE WIDTH="100%"><TR><TD>&lt;No.1023&gt; <B CLASS="title">初心者の館と質問の館５</B> writer : <B CLASS="writer">読んでね！！</B> <small>2002/08/31(Sat) 21:57 id:ntWoPW799LU </small></TD><TD ALIGN="right"><B><A HREF="#4">↓</A></B>/<B><A HREF="#2">↑</A></B>/<B><A HREF="#0">■</A></B></TD></TR></TABLE><HR CLASS="mini">
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/nanaya.jpg></TD><TD><TT>「ここは、初めてここに来た人が自己紹介したり、「○○何所に売ってるの？」などの質問をするスレです。<BR>　あと、初めてここに来た人たちになるべく守って頂きたいことをだいたい書いておきます。<P>　注意：これは絶対守れというものではありませんが、現実世界の最低限守るマナーと同じと思ってください。★は新設です。<P>＜スレを立てる人、レスをつける人たちへ＞<BR>★０．書き込む前に、削除パス（passの空欄に例えば５桁の数字を書き込んで下さい）を必ず設定して下さい。<BR>　　これを設定しないと、いろいろとトラブルの元になります。また、削除パスは公開しないで下さい。<BR>１．新スレを立てる場合、過去に同じようなスレが無いかチェックしてからにしてください。<BR>２．自分本意のスレ（レス）は立てない。<BR>３．いくら自分の発言だからといって、勝手にスレ（レス）を消さない。<BR>　（もし消したなら何らかのフォローは書いておく）<BR>４．この掲示板にそぐわないと思われる発言はなるべく避ける。<BR>５．注意や意見があっても、怒らず冷静に内容を理解する。<BR>６．誹謗．中傷．煽り．罵倒はしない。<BR>★6a.&lt;罵倒etc.をされた場合&gt;荒らし・煽りには完全無視がもっとも効果的です。一切反応しないようにしましょう。<BR>７．上記ルールを守っているつもりでも忠告、苦情が来た時点で「自分に間違ってるところがある」ということを理解する。<BR>８．失礼．迷惑になると判っているなら、最初から書きこまない。<BR>　（謝れば何をしてもいいと勘違いする人が出てくるため）<BR>９．１日に幾つもスレを立てたり、同じような内容のスレを立てないようにする。<BR>　（例外：レスが１００を超えた場合は「○○２」等のスレを（早急に）立ててＯＫです）<BR>１０．チャット化しないように気をつける。<BR>　（返事をしたい方はなるべく数人分をまとめて書く等工夫をしてください。）<BR>１１．自分の主義主張は明確に、発言には責任を持ってください。<BR>１２．スレッドを消した時は、このスレにその旨を書くなりなんなりしてください。<P>＜質問について＞<BR>１．「○○を探してるのですが…」という方は、何所に住んでいるのか（大まかで良いです）<BR>　　「通販しか利用できない…」等、書いてください（探索範囲の限定をして下さい）。<BR>２．自分で探してなかったときは、「Ｒｅｓ○○を使って試したが無かった」<BR>　　「○○の××店を探したけど無かった」等、書いてください。<BR>３．個人取引、オークション／中古情報の書き込みはどのような形でも厳禁です。<BR>４．答えてあげる方は、なるべく（絶対）「知得留先生」のfaceを使ってください（笑 <P>他にこんな決まりも必要だという方はお教え下さい。あと、タイトルの改良案など。」<P>■今回の文責：銀の洗車<P>追記）Res.1（の予定）に関連スレの情報を書き込んでおきます。</TT></TD></TR></TABLE>
+<DIV ALIGN="right"><a href=t1023.html>レスを書き込む/表示されていないレス(89件)もすべて見る。</a></DIV>
+<hr class=mini>
+&lt;Res.90&gt; <B>ばりっちょ</B> <small>2002/09/17(Tue) 15:46 id:jWe1H/LspD6</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/ari.jpg></TD><TD>＞みなさま<BR>fuzzyさんの意見を含めた、改良板「初心者の館ver0.3」をあちらのテスト板に立ててみました。<BR>こちらのレスも１００近いので、以降つっこみ・訂正等の意見はUNOFFICIAL BBS<BR>（<a href="http://bbs.fuzzy2.com/unofficialbbs/typemoon/" target="_blank">http://bbs.fuzzy2.com/unofficialbbs/typemoon/</a>）<BR>のテスト板[223. テスト：初心者の館ver0.3]の方へお願いします。<P>お騒がせしました。</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+&lt;Res.91&gt; <B>ばりっちょ</B> <small>2002/09/18(Wed) 06:34 id:kFvSC987Oqo</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/tiel.jpg></TD><TD>[73. 初心者の館と質問の館]スレッドを立てました！<BR>初めての方はどうぞご利用ください。<BR>（あちらのTYPE-MOON板です）</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+&lt;Res.92&gt; <B>質問なのですが…。</B> <small>2002/09/18(Wed) 09:15 id:cvBlxBJvp8.</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/stk.jpg></TD><TD>以前あった「タイプムーンスタッフ座談会」(だったかしらん？）と<BR>いうコンテンツはなくなってしまったのでしょうか？<P>スタッフの皆様のチャットログが掲載されたものです。<P>続きを楽しみにしていましたが、<BR>探しても見つかりません。<P>ご存知のかたがいらっしゃいましたら、<BR>ご回答くださいますようお願い申し上げます。</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+&lt;Res.93&gt; <B>はらわた</B> <small>2002/09/18(Wed) 10:05 id:SexPcVSrhBY</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/ichi.jpg></TD><TD>このスレとももうすぐお別れだな。回答者、構成者諸氏、<BR>ご苦労様でした。</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+&lt;Res.94&gt; <B>銀の洗車</B> <small>2002/09/18(Wed) 17:37 id:2jjeakpN5jY</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/tiel.jpg></TD><TD>＞タイプムーンスタッフ座談会<P>　なくなっているそうです。今は見ることは出来ません。<BR>　しかし、復活の予定はあるようです。＞「過去ログ189」の<BR>[833] 月姫通信vol.3アップ完了です。</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+&lt;Res.95&gt; <B>質問ですが</B> <small>2002/09/19(Thu) 16:43 id:rjRePZNAVjM</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/fake.jpg></TD><TD>これから買おうと思っています。<BR>今、再販されているものも<BR>アップデートする必要があるのでしょうか？</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+&lt;Res.96&gt; <B>はらわた大回転’９７</B> <small>2002/09/19(Thu) 17:29 id:Qfp3dK4JeD6</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/ichi.jpg></TD><TD>…現在の再販分のバージョンは分からないけど、月姫を起動<BR>すると、ウインドウのメニューからバージョンの確認ができ<BR>ます。もし下位のバージョンでしたら、アップデートする必<BR>要がありますね。アップデートは注意書きを読んでから行っ<BR>てください。以上です。</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+<DIV ALIGN="right">
+<a href=t1023.html>レスを書き込む/表示されていないレス(89件)もすべて見る。</a>
+</DIV>
+</BLOCKQUOTE></A>
+<HR CLASS="interarticle">
+<A NAME="4"><TABLE WIDTH="100%"><TR><TD>&lt;No.1056&gt; <B CLASS="title">掲示板が変わる！？</B> writer : <B CLASS="writer">car群</B> <small>2002/09/11(Wed) 21:58 id:uY95TKlvMfE </small></TD><TD ALIGN="right"><B><A HREF="#5">↓</A></B>/<B><A HREF="#3">↑</A></B>/<B><A HREF="#0">■</A></B></TD></TR></TABLE><HR CLASS="mini">
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/ren.jpg></TD><TD><TT>今ＴＯＰから入って来たらその旨が書いてありました。<P>↓まだ見ていない方はここからどうぞ<BR><a href="http://www.typemoon.com/main.html" target="_blank">http://www.typemoon.com/main.html</a><P>なんでも２２日には今の掲示板を全て消去するそうです。</TT></TD></TR></TABLE>
+<DIV ALIGN="right"><a href=t1056.html>レスを書き込む/表示されていないレス(76件)もすべて見る。</a></DIV>
+<hr class=mini>
+&lt;Res.77&gt; <B>ラハブ</B> <small>2002/09/16(Mon) 16:58 id:Ltti/WoiH.6</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/nero.jpg></TD><TD>＞愚者さん<BR>ああ、とうとう出立なされてしまうのですね。<BR>危うく私もマーライオンの国に飛ばされるところでしたので、お気持ちは良く分かります。<BR>愚者さんが帰って来られることをお待ちしております。<BR>それでは、くれぐれもお気を付けていってらして下さい。<P>(スリには気をつけてとか、水に中らないようにとか、オバさんみたいな事を言ってみたりｗ)</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+&lt;Res.78&gt; <B>ＲＥＢＩ</B> <small>2002/09/17(Tue) 13:22 id:SFVjmqSQXeM</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/tiel.jpg></TD><TD>うな～・・変わるんですね（最遅<P>多くは語らず。最後にはどうか幸せな記憶を・・・<BR>（っても変わるだけで閉鎖じゃあないですし新しいＢＢＳの方に流動するようですし、別れというより節目でしょうけど）<P><BR>&gt;愚者さん<BR>気をつけて行って来てくださいね～<BR>仕事じゃないですけど数年前に一人旅に出たいとか考えてたものですが・・・・・その場合最も悩んだのが生活費はどうするのかだの準備うんぬん期間うんぬんより、離れてる間にゲームやらの情報がどうなるのかだったり。むう、救い難い。</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+&lt;Res.79&gt; <B>Hamaneko</B> <small>2002/09/17(Tue) 22:34 id:cRrvCPKy5dI</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/neko.jpg></TD><TD>すみません。最近月姫を買って魅力に取り憑かれちゃった者なのですが、ちょっとhttp://www.typemoon.com/bbs/の記述が曖昧なので、質問させてください。<P>『今のBBSが２つある体制を見直して、非スレッド式の掲示板一つに統一し、かつ以前の過去ログを削除する』のか、『TYPE-MOON掲示板のみが非スレッド形式になる（総合ネタバレ掲示板はそのまま）』のか、公式の文章ではどちらとも取れる曖昧でして。<P>話の流れを見ると恐らく前者のような気がするのですが、御教授いただければ幸いです。</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+&lt;Res.80&gt; <B>八瀬</B> <small>2002/09/17(Tue) 23:23 id:ZcKjARgXFIg</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/souka.jpg></TD><TD>　こんばんは。もう眠らなきゃ、の八瀬です。<P>　＞Hamanekoさま。はじめまして。<BR>　　日本語の寛容さとも言えることですが（笑）、『スレッド形式のＢＢＳ全てを削除し、新たな非スレッド形のＢＢＳが一つ作られる』だと思われます。<BR>　つまり前者ですね（違ってたらどうしよう……）。<BR>　ネタバレの話はできなくなる、と書かれていますので、少なくとも後者はありえません。</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+&lt;Res.81&gt; <B>Hamaneko</B> <small>2002/09/17(Tue) 23:57 id:m0skxTcx0cU</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/neko.jpg></TD><TD>&gt;八瀬さま<P>こちらこそ初めまして。以後お見知り置きを願います。<BR>さて、返答をどうもありがとうございます。<BR>やっぱりそっちですか。<BR>残念…………。<P>別のスレッドで出ていたunofficial BBSですが、公式サイトからの誘導ってやるんですかね～。</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+&lt;Res.82&gt; <B>fuzzy</B> <small>2002/09/18(Wed) 00:04 id:FzQOv5yBohc</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/ren.jpg></TD><TD>&gt; 別のスレッドで出ていたunofficial BBSですが、公式サイトからの誘導ってやるんですかね～。<P>公式サイトからの紹介(リンク等)は無いと伺っています。</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+&lt;Res.83&gt; <B>ふたご</B> <small>2002/09/18(Wed) 03:48 id:ifZRUY75yVg</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/stk.jpg></TD><TD>うぁー！？変わっちゃうんですねー？<BR>最近こちらへの書き込みをしていなかった私が<BR>言うのもなんなんですけど、とても残念です。<BR>（ほぼ読み専でしたが）<BR>このスレッド形式の掲示板読んでいてとても<BR>たのしかったので・・・。<P>先週からまた月姫やり直したりして、<BR>ふたご的月姫ブーム再燃してたんですが。<P>でも、新しい掲示板も出来るようですので、<BR>そちらにもたまに顔を出したいとおもいます。<P>それでは皆様頑張ってくださいねー。</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+<DIV ALIGN="right">
+<a href=t1056.html>レスを書き込む/表示されていないレス(76件)もすべて見る。</a>
+</DIV>
+</BLOCKQUOTE></A>
+<HR CLASS="interarticle">
+<A NAME="5"><TABLE WIDTH="100%"><TR><TD>&lt;No.1034&gt; <B CLASS="title">新・私このキャラ好きなんです！　四の巻</B> writer : <B CLASS="writer"><a href="mailto:the_fool_0@docomo.ne.jp">愚者</a></B> <small>2002/09/04(Wed) 04:14 id:E61rIcqSTm. </small></TD><TD ALIGN="right"><B><A HREF="#6">↓</A></B>/<B><A HREF="#4">↑</A></B>/<B><A HREF="#0">■</A></B></TD></TR></TABLE><HR CLASS="mini">
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/stk.jpg></TD><TD><TT>いつのまにやら第三幕のレスが１００超えていたので、勝手ながら新設させて頂きます。<P>このスレッドでは、「好きなキャラ・メカ・人外の者（もう何でもオッケー）や、<BR>俺の好きなキャラがこんな事言ってたゼ！みたいな好きなセリフなどなど」<BR>好きなキャラで語り合おうスレッドです。（原文ママ）<BR>しかしガンダム関連の話題以外という条件が付きますのでご注意を。<BR>前スレ（第三部）はこちらです↓<BR><a href=t1009.html target="_blank">http://210.188.237.92/~typemoon/bbs/bbs.php?bbsname=typemoon&mode=all&no=1009</a></TT></TD></TR></TABLE>
+<DIV ALIGN="right"><a href=t1034.html>レスを書き込む/表示されていないレス(94件)もすべて見る。</a></DIV>
+<hr class=mini>
+&lt;Res.95&gt; <B>流練</B> <small>2002/09/16(Mon) 00:20 id:lq4ePsgkBzE</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/koha.jpg></TD><TD>こんばんは、秋の夜長でもホラーやスプラッタは見れない流練です。…だって怖いじゃん…。<BR>だから宇宙に行こうがメタルになろうが、あの有名なＦｒｉｄａｙ　Ｍｏｖｉｅの新作は見に行けません。<P>＞ＦＳＳの天位持ちｖｓ十傑衆<BR>なかなかに興味深い…しかしアルベルトや樊瑞、カワラザキの爺さまあたりならモーターヘッド相手でも戦えてしまう気がするから恐い。フィッツカラルドは…ダメかなあ、やっぱ。<P>＞くしだんごさん＞ＳＳＷ<BR>魔術を受け止められるくらい魚はつよいのよー（笑<BR>でもサバを吹くのはやっぱりやめてください、マヂでコワイデスカラ。<BR>＞なぜに仮面ライダーブラックはＳＰＲＩＴＳでは無視<BR>う～んこれはですね、作者の村枝氏は元々ゼクロスが描きたかったそうなんですよ、で当初はゼクロス編だけを描くつもりで石ノ森プロにお願いにいったそうなんですが（この辺伝聞）そこで、この際どうせ描くなら他のライダーも描いてみませんかという話になって、それじゃあやります、となり今に至るという訳だそうです。ですのでゼクロス以降のライダーは残念ながら出てこないのではないかと思います。<BR>＞かるらさんは…<BR>５番の魔王（正体確定）を倒すために、とうとう旅立った。に一票！<P>＞黒猫さん<BR>黒猫さん家の子羊達は、最低でも豪鬼クラスの猛者だと言ううわさを聞きましたが。（笑<BR>＞Ｐｉａ３<BR>やっぱり箒でしたか、（安堵）それでこそ黒猫さん。ちなみに私は赤でしょうか。<BR>＞みずいろ＞コスプレえ<BR>ぼくこどもだからわかんなーい（ニッコリ<P>＞狛さん＞マヤ<BR>あなたの家の猫がこうなったらぜひ教えてクダサイ。<BR>＞流れ星シリーズ<BR>よく捕まらないなあいつら…。<P>さーて本日のキャラはー、刻がくる前にこの人だけは上げておかねば、ということで…<BR>Ｍｙ　Ｆａｖｏｒｉｔｅ　Ｃｈａｒａｃｔｅｒ、琥珀さんです。<BR>出演は「月姫」「プラスディスク」「歌月十夜」「月姫通信」などです。<BR>彼女はー、色々な笑顔を、みせてくれました<BR>　　　　　様々な涙を、みせてくれました<BR>　　　　　数々の想いを、みせてくれました<BR>　　　　　そして、一つの幸せを、みせてくれました<BR>笑って泣いて怒って悲しむ、そんないくつもの彼女をみて、こちらも笑い泣き怒り哀しんで、いくつもの想いが生まれました。<BR>だから、最後に彼女のみせた幸せには…もう言葉はいりませんでした。<BR>彼女と出会えたことに、心から感謝です。<P>つまりは琥珀さんにベタ惚れだってことですよ。ではまたです。</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+&lt;Res.96&gt; <B>黒猫</B> <small>2002/09/16(Mon) 01:46 id:agVA2WhB7f2</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/nanaya.jpg></TD><TD>「バタ子、あんたアンパン男が好きなんでしょ～」<BR>「だっだれが！？　あんなあんこが詰まってる奴・・・」<BR>・・・・こんばんは、とうとう精神崩壊を起こした黒猫です。<BR>「バタ子さんのバターが似合うのはこの僕、蝕パン男さ！！」というのも考えたあたりもう末期症状です（汗）<P>吉田稔磨（PEACE MAKER）<BR>維新派の重要人物で、京都大火を目論んだ男。<BR>ホラーな人です、てか怖えｗ・・扉の隙間から目茶目茶ヤバイ眼でのぞかれたらトラウマなくともビビリますｗ<BR>戦闘中はまるで幽鬼のよう・・・<BR>なんか小姓の鈴には甘いですがｗ<BR>池田屋事変で新撰組の猛者達と闘いを繰り広げ、最後は鉄之助との一騎撃ちの最中、総司により斬首、その生涯を閉じました。<BR>・・・結局額の傷はなんだったんでしょう・・・<P>くしだんごさん＞私は熱くて、クサくて、こっぱずかしいセリフを叫びませんからｗ<BR>G・闇＞かっこいいですけどねぇ（苦笑）<BR>胃の中＞私はグルメニアンだから人など食べぬのですよ～。<P>外道丸さん＞・・・・・・それはのろゴフゴフ・・・・気のせいですよ（にっこり）<BR>月姫＞私は黄理が一番好きですね、詳しくはネタバレになるので語れないのが残念ですけどｗ<P>犬神長元坊さん＞いや、私は（普段は）只のいたいけな子羊ですから、そんな名刀チックな武器で襲い掛かるのは勘弁してください～（泣）<BR>星の海＞ふう、危ない危ない、私がいるのは地球のジャパンという国ですから一安心ですね・・・ですよね（ビクビク）<P>狛さん＞フッ、愛玩するものの為に闘う時、黒猫は一騎当千！！、敗北はありません・・・・<BR>コース辞退＞・・・せっかくTheガッツコースも用意したのに（ぼそ）<P>流練さん＞ははは、いやだなぁそんな訳ないじゃないですかｗ、チョット黒王号とタメはれるぐらい筋肉質なだけのかわいい子羊ですよ（にっこり）<BR>箒＞あの人はプレイ前から目をつけてたんですが、やってビックリ滅茶苦茶かわいかったですｗ<BR>魔王＞だれでしょうねぇ？知ってる人かなぁ？<BR>わかんなーい＞ああ、別に構いませんよ、問題ありませんから（邪笑）</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+&lt;Res.97&gt; <B>閲覧者Ｃ</B> <small>2002/09/16(Mon) 02:22 id:J/v9A6QOqiM</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/souka.jpg></TD><TD>月姫なら蒼香とシキです。<BR>シキは単純にホレマシタ（マテ<BR>蒼香は、もう、ヒトメボレです。<BR>でも、キャラクターが好きになるのって、ものすごく単純な事ですよねぇ？え、僕だけですか？（汗）<BR>最後に、月姫以外で。<BR>「小便はすませたか？神様にお祈りは？部屋のスミでガタガタふるえて命ごいする心の準備はＯＫ？」<BR>のせりふを言ってくれたウォルター・Ｃ・ドルネーズヘルシング家執事元国教騎士団ゴミ処理係に一票を投じたいと思います。<BR>え、一人で三人も上げるのは、ダメでしたか？</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+&lt;Res.98&gt; <B>ばりっちょ</B> <small>2002/09/16(Mon) 02:55 id:UWCj0kEj0fw</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/ari.jpg></TD><TD>せっかく黒猫さんがキャラ化してるのに、この方が出ていないのは問題でしょう。<P>「キャラ好き」の根源、『かるら』さん。<BR>彼無しにこのスレはここまでこなかった。<BR>彼無しにここまでただれた人間関係は成立しなかった（おぃ<P>そんなあなたにただ一言、「ありがとう」・・・・・と。<P>では、みなさん。またどこかで。</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+&lt;Res.99&gt; <B>愚者</B> <small>2002/09/16(Mon) 03:03 id:HyHdRU51YO6</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/stk.jpg></TD><TD>何時の間にやらもうすぐココのレスも、１００超えようとしてますね。<BR>代理で立てたとはいえ、皆さんのレスに感謝です♪<P>なんかＦＳＳの話題が挙がっているので、その路線で。<BR>やはりデカさで圧倒の『ヤクト・ミラージュ』です。高さが４７ｍで通常のＭＨの約３倍、見開きで比べてみるとその差は一目で分かります。<BR>更に『ツインタワー』（アレ以前に描かれた話だとはいえ、なんか危険なネーミングだ…）バージョンは本体すら凌ぐ全長２００ｍ！<BR>ここまでくるともう、バランスもヘッタクレもありませんなｗ<BR>そして強さも半端じゃありません、コレに勝てるのは恐らくナイト・オブ・ゴールドか、ジュノーンくらいでしょう。</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+&lt;Res.100&gt; <B>はらわた大回転’９７</B> <small>2002/09/16(Mon) 08:51 id:dsNWuZdvXG.</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/tiel.jpg></TD><TD>＞ラバト・星川殿<BR>本編だけでも通して読めば大丈夫です。でも中二のときの<BR>私は大統領や帝の…ネタばれは止めておこう。副読本は<BR>私は読んでないので分かりませぬ。<P>＞流練殿<BR>私はフィッツカラルドの出る回は未見なのですが、指パッチン<BR>で真空波を起こせることを考えると…。むぅぅん…。<P>萌え萌えMH「ブラッドテンプル」前にも書いたような気<BR>がするな…。じゃ、「サイレン（ラルゴ機）」。割とシ<BR>ンプルで重量感のあるやつが好きですね。</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+&lt;Res.101&gt; <B>はらわた大回転’９７</B> <small>2002/09/16(Mon) 08:54 id:dsNWuZdvXG.</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/ichi.jpg></TD><TD>あ、レス100だ。新スレ立てた方がいいですか？<BR>終末までまだもう少し時間がありますし。</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+<DIV ALIGN="right">
+<a href=t1034.html>レスを書き込む/表示されていないレス(94件)もすべて見る。</a>
+</DIV>
+</BLOCKQUOTE></A>
+<HR CLASS="interarticle">
+<A NAME="6"><TABLE WIDTH="100%"><TR><TD>&lt;No.1062&gt; <B CLASS="title">初めましてです。</B> writer : <B CLASS="writer">怜音</B> <small>2002/09/14(Sat) 14:37 id:zaT2un7bOOc </small></TD><TD ALIGN="right"><B><A HREF="#7">↓</A></B>/<B><A HREF="#5">↑</A></B>/<B><A HREF="#0">■</A></B></TD></TR></TABLE><HR CLASS="mini">
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/cel.jpg></TD><TD><TT>どうも、初めまして。怜音（レオ）というものです。<BR>「月姫」は去年ぐらいにお友達の薦めでやりました。すっごく楽しくって<BR>今でも、始めからやって楽しんでます。<BR>今度は「歌月十夜」を頑張ってクリアしたいと思います！！<BR>これからも、よろしくお願いしますｍ（－－）ｍ</TT></TD></TR></TABLE>
+<DIV ALIGN="right"><a href=t1062.html>レスを見る/書き込む</a></DIV>
+<hr class=mini>
+&lt;Res.1&gt; <B>高山深海</B> <small>2002/09/15(Sun) 05:40 id:lwiRgV.XJuM</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/his.jpg></TD><TD>初めまして、高山深海というものです。<BR>掲示板のシステム変更に伴い、こちらではゲームの内容について、色々突っ込んだ話ができなくなります。<BR>下記のスレで出てくる掲示板で楽しく話せたらいいですね。<P>&lt;No.1063&gt; UNOFFICIAL BBS移行について<BR><a href=t1063.html target="_blank">http://www.typemoon.com/bbs/bbs.php?bbsname=typemoon&mode=all&no=1063</a></TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+<DIV ALIGN="right">
+</DIV>
+</BLOCKQUOTE></A>
+<HR CLASS="interarticle">
+<A NAME="7"><TABLE WIDTH="100%"><TR><TD>&lt;No.1058&gt; <B CLASS="title">ファンサイトBBSへの移行について</B> writer : <B CLASS="writer"><a href="mailto:fuzzy@fuzzy2.com">ｆuzzy</a></B> <small>2002/09/12(Thu) 02:26 id:8cev7rvWytQ <a href="http://www.fuzzy2.com/tsukihime/" target="_blank">HP</a></small></TD><TD ALIGN="right"><B><A HREF="#8">↓</A></B>/<B><A HREF="#6">↑</A></B>/<B><A HREF="#0">■</A></B></TD></TR></TABLE><HR CLASS="mini">
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/ren.jpg></TD><TD><TT>9/22の公式BBSの利用ルール変更に伴う<BR>ファンサイトBBSへの移行を相談しましょう。</TT></TD></TR></TABLE>
+<DIV ALIGN="right"><a href=t1058.html>レスを書き込む/表示されていないレス(44件)もすべて見る。</a></DIV>
+<hr class=mini>
+&lt;Res.45&gt; <B>山崎</B> <small>2002/09/14(Sat) 23:25 id:3kEVSwpVkFs</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/ari.jpg></TD><TD>上部メニューから行くのと掲示板一覧から行くので表示の仕方が違うのは仕様でしょうか？何かどうなっているのか良くわからないんですが。</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+&lt;Res.46&gt; <B>fuzzy</B> <small>2002/09/14(Sat) 23:36 id:wjH7niRQc9k</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/ren.jpg></TD><TD>&gt; 山崎さま<BR>テストにご協力いただきまして、ありがとうございました。<BR>気がついていなかったバグでしたので修正しました。</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+&lt;Res.47&gt; <B>fuzzy</B> <small>2002/09/14(Sat) 23:44 id:wjH7niRQc9k</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/ren.jpg></TD><TD>一応18禁にした方がよさそうなので、入り口でチェックする方向で。<BR>ただし「成人向けコンテンツサイト」というわけではないので、<BR>従来通りHな話題はあまりしない運用でいいですか?<BR>Hな画像のリンクを張られても困りますから。<BR>(URLを書かれてもクリッカブルにはならない設定です)<P>そろそろKohさんのコメントもほしいんですけど(笑)。</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+&lt;Res.48&gt; <B>狛</B> <small>2002/09/14(Sat) 23:50 id:TJ0I/RU9aVY</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/his.jpg></TD><TD>fuzzyさん新ＢＢＳの立ち上げ＆改良ご苦労さまです。<BR>私も移行後のＢＢＳを利用させて頂きたいので話し合いに参加させて下さい。<P>１　ネタバレ統合版は有った方がいいと思います（もう設置されていますが）<BR>垣根を越えた話題作りがあったほうが盛り上がると思います。<P>２　ＩＰ表示はあっても困る事は無いと思うので良いと思います。<BR>（ＰＣの知識に疎いのですが、ＩＰ表示による弊害って有るのでしょうか？）<P>３　１８歳未満の観覧・書き込みは、やはり避けた方が良いと思います。<BR>アンソロジーなどで月姫を知る機会があっても、もとの作品は１８禁なので<BR>それが遊べる年齢に達していないと色々とマズイと思います。<BR>（「月姫どこで手に入りますか？」とかで手助けをしてしまったりとか）<P>１６日の本開設楽しみに待っています。頑張って下さい。</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+&lt;Res.49&gt; <B>ハル</B> <small>2002/09/15(Sun) 00:12 id:Ghe5JId6LlQ</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/hane.jpg></TD><TD>私も話に参加させてもらってよろしいでしょうか。<P>ざっとみて、ツリー形式に変わりましたね。移動に制限が掛かってしまいますが、まぁそれも新しい掲示板の方向なのでしょう。従来のように書き込みをしたスレッドが、上に登っていく形式になるのであれば、今ここにどのようなタイトルのスレッドがあるのか、という掲示も必要になるでしょうし（そういった意味でＴＹＰＥ－ＭＯＯＮさんの掲示板は秀逸だったとも思います）、どのように変わるかはわかりませんが。<P>十八歳未満の書き込みについては……やはり、従来通り制限を加えたほうが良いのではないかとも思います。上に書かれた方々が説明してくださっていますが……空の境界や月姫格闘は全年齢でも、その根幹たる（空の境界は前身ですが）、月姫という存在がそも十八歳未満禁止にあるのですから、元を追求されてしまう可能性は多分にありますし。<P>あとは……掲示板に参加する人達が、ＴＹＰＥ－ＭＯＯＮ前掲示板での事をきちんと踏まえて、如何に活動できるかにかかっていると思います。<P>最後にfuzzyさん。<BR>大変ご苦労様でした。さしたる手助けもままなりませんが、こうして作り上げられたＢＢＳがＴＹＰＥ－ＭＯＯＮファン（だけにとどまることもありませんが）達の新たな交流の場になることを願います。<P>それでは、失礼致しました。</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+&lt;Res.50&gt; <B>fuzzy</B> <small>2002/09/15(Sun) 00:17 id:Q48Jv/KxQJ6</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/ren.jpg></TD><TD>まだ50ですが、次のスレに移行します。</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+&lt;Res.51&gt; <B>－ＲＩＯ－</B> <small>2002/09/15(Sun) 00:33 id:6JLQeEKLYKY</small><br>
+<BR>
+<BLOCKQUOTE><TABLE><TR><TD><IMG SRC=../icon/tiel.jpg></TD><TD>＞狛さん<BR>ＩＰアドレスというのはネットにつながっているコンピュータを特定する３２ビットの数字で、すべて違う数字が割り振られています。<BR>これによって、どのコンピュータから書き込みがなされたかが明確になる訳です。<BR>まぁ、自分の発言に責任をもて、という意味でしょうね。そういう意味で、<BR>私はＩＰの表示には賛成します。<P>ＩＰアドレスはネットワークに接続する時に割り振られますのでダイヤルアップ接続や<BR>ＡＤＳＬでもフレッツのようにその都度接続する場合は毎回違うアドレスになるのですが、<BR>常時接続の場合、いつまでもＩＰアドレスが変わりませんので、悪意ある<BR>ハッカーに不正アクセスの踏み台にされる恐れがあります。<BR>先日、ＮＡＳＡに対して行われた不正アクセスはまさにそれを悪用された事件です。<BR>弊害があるとすれば、こういう危険がある、というところでしょうか。</TD></TR></TABLE></BLOCKQUOTE><HR class=mini>
+<DIV ALIGN="right">
+<a href=t1058.html>レスを書き込む/表示されていないレス(44件)もすべて見る。</a>
+</DIV>
+</BLOCKQUOTE></A>
+<HR CLASS="interarticle">
+<A NAME="8"><table ALIGN="center" BORDER="0" CELLSPACING="0" CELLPADDING="2">
+<a href=i0.html>&lt;&lt; Prev</a>  <a href=i2.html>Next &gt;&gt;</a><tr>
+<td align="right"></td></tr>
+<tr><td colspan=2 align=right>[ <a href=../top.html>Home</a> ]
+ [ delete ] [ <a href=l294.html>old_log</a> ] [ <a href=search.html>search</a> ]<br><br>
+<font size=1><!-- 消さないでね -->
+- <a href="http://php.s3.to" target="_top">p++ BBS</a> customized. -
+</font>
+</td>
+</tr></table>
+</body></html>
