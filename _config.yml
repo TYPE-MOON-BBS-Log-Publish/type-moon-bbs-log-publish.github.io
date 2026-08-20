@@ -1,7 +1,7 @@
 plugins:
  - jekyll-sitemap
 url:
- "https://type-moon-bbs-publish.github.io"
+ "https://type-moon-bbs-log-publish.github.io"
 baseurl:
- "/tmbbslog"
+ ""
 
